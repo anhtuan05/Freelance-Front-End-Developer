@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .t585__content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+</style>
+
+<body>
+    <span class="t585__icon" style="color: rebeccapurple;">Click me</span>
+
+    <div class="t585__content">
+        <div class="t585__textwrapper">
+            <div class="t585__text">
+                Marketplace software is a platform
+                for starting a multi-vendor website. This software can be on-premise or
+                cloud. On-premise marketplace platforms usually have a lifetime license with
+                one-time payment. Cloud platforms are subscription-based.
+            </div>
+        </div>
+    </div>
+
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const t585Content = document.querySelector(".t585__content");
+        const t585Icon = document.querySelector(".t585__icon");
+
+        t585Icon.addEventListener("click", function () {
+            if (t585Content.style.maxHeight) {
+                t585Content.style.maxHeight = null;
+            } else {
+                t585Content.style.maxHeight = t585Content.scrollHeight + "px";
+            }
+        });
+    });
+
+</script>
+
+</html>

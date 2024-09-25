@@ -1,0 +1,327 @@
+/* menu-top */
+.menu-top {
+    background-color: var(--default-color-green);
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.menu-top ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu-top ul li {
+    position: relative;
+    line-height: 1.5;
+    z-index: 1000;
+}
+
+.menu-top ul li a {
+    display: flex;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    align-items: start;
+}
+
+.submenu-top {
+    position: relative;
+}
+
+.submenu-top .submenu-top-content {
+    display: block;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s ease;
+    position: absolute;
+    top: 125%;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    visibility: hidden;
+    box-shadow: var(--default-box-shadow);
+    width: 220px;
+    text-transform: uppercase;
+}
+
+.submenu-top .submenu-top-content li a {
+    color: #07876a;
+}
+
+.submenu-top:hover .submenu-top-content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    border-bottom: 1px solid gainsboro;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo a img {
+    max-width: 140px;
+}
+
+/* container-menu-search */
+.container-menu-search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: var(--default-color-white);
+    justify-content: space-between;
+}
+
+.sticky-container-menu-search {
+    position: fixed;
+    top: 0;
+    background-color: var(--default-color-white);
+    width: 100%;
+    z-index: 999;
+}
+
+
+.container-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-header {
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    padding: 20px 10px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.menu-item .fa-gift:before,
+.menu-item .fa-home:before {
+    font-size: 16px;
+}
+
+.menu-item>a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: start;
+    padding-bottom: 10px;
+}
+
+.menu-item.active a {
+    border-bottom: 3px solid var(--default-color-green);
+    color: var(--default-color-green);
+}
+
+.menu-item>a:hover {
+    border-bottom: 3px solid var(--default-color-green);
+}
+
+.submenu {
+    display: block;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--default-color-white);
+    box-shadow: var(--default-box-shadow);
+    min-width: 200px;
+    box-sizing: border-box;
+    padding: 20px 0 20px 20px;
+    z-index: 999;
+}
+
+li.menu-item:nth-child(3)>ul {
+    width: 600px;
+}
+
+li.menu-item:nth-child(3)>ul .submenu-list {
+    width: 50%;
+}
+
+li.menu-item:nth-child(4)>ul {
+    width: 800px;
+}
+
+li.menu-item:nth-child(4)>ul .submenu-list {
+    width: 25%;
+}
+
+li.menu-item:nth-child(7)>ul {
+    width: 600px;
+}
+
+li.menu-item:nth-child(7)>ul .submenu-list {
+    width: 50%;
+}
+
+.submenu-list:not(:last-child) {
+    border-right: 1px solid var(--default-color-grey);
+}
+
+.submenu-list:not(:first-child) {
+    padding-left: 20px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.submenu-item {
+    padding-bottom: 25px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.submenu-row {
+    display: flex;
+}
+
+.submenu-sub {
+    display: block;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    background-color: var(--default-color-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    padding: 20px 0 0 20px;
+}
+
+.submenu-item:hover .submenu-sub {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+/* search */
+.container-search {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 30%;
+}
+
+.search-input {
+    padding: 8px;
+    border: 1px solid var(--default-color-grey);
+    border-radius: 21px;
+    width: 55%;
+    padding: 10px 10px;
+}
+
+.search-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: relative;
+    left: -40px;
+}
+
+.search-button i::before {
+    font-size: 18px;
+}
+
+/* cart empty*/
+.hb-cart {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-control i {
+    margin-right: 5px;
+}
+
+.cart-control i::before {
+    font-size: 22px;
+}
+
+.hb-cart:hover .cart-control i::before {
+    transition: all 0.1s ease-in-out;
+    color: var(--default-color-yellow);
+}
+
+.count {
+    background-color: var(--default-color-red);
+    color: var(--default-color-white);
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+
+.mini-price {
+    margin-top: 5px;
+}
+
+.number-price {
+    font-weight: bold;
+    color: var(--default-color-red);
+    margin-left: -5px;
+}
+
+.link-cart {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.hb-minicart-outer {
+    width: 330px;
+    position: absolute;
+    top: 180%;
+    right: 0%;
+    background-color: var(--default-color-black);
+    box-shadow: var(--default-box-shadow);
+    display: block;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+    visibility: hidden;
+}
+
+.hb-cart:hover .hb-minicart-outer {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.widget_shopping_cart_content {
+    padding: 30px;
+}
+
+.woocommerce-mini-cart__empty-message {
+    font-style: italic;
+    color: var(--default-color-grey);
+}

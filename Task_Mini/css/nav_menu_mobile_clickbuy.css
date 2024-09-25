@@ -1,0 +1,257 @@
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    background: transparent;
+}
+
+div,
+li {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 2px 0;
+    text-indent: 0;
+    list-style: none;
+}
+
+/*content*/
+.menu-top-block {
+    position: fixed;
+    display: none;
+    top: 54px;
+    z-index: 100;
+    background-color: #fff;
+    width: 100%;
+    max-width: 640px;
+    height: calc(100% - 129px);
+    overflow: hidden;
+    overscroll-behavior: contain;
+}
+
+.menu-top-block.showopent_menu {
+    display: block;
+}
+
+.menu-top-block ul.navbar-nav {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 129px);
+    padding: 0;
+    width: 80px;
+}
+
+li.nav-item {
+    margin: 0;
+    padding: 0;
+}
+
+li.nav-item a.nav-link {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    position: relative;
+}
+
+li.nav-item>a::before {
+    content: "";
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.mega-indicator {
+    display: none;
+    top: 10px;
+    right: 0;
+    position: absolute;
+    font-size: 26px;
+    padding: 0;
+    width: 17px;
+    color: #fff;
+}
+
+li.nav-item.show>a .mega-indicator {
+    display: block;
+}
+
+.mega-indicator::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background: #fff;
+    transform: rotate(-45deg) translateX(-50%);
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 85%;
+}
+
+.menu-top-block ul.navbar-nav .nav-link {
+    color: #000;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+li.nav-item:nth-child(1)>a {
+    background-color: #fee2e2;
+}
+
+li.nav-item:nth-child(1)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-phone-red.svg);
+}
+
+li.nav-item:nth-child(2)>a {
+    background-color: #ffedd5;
+}
+
+li.nav-item:nth-child(2)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-phone-red.svg);
+}
+
+li.nav-item:nth-child(3)>a {
+    background-color: #fef9c3;
+}
+
+li.nav-item:nth-child(3)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-samsung-red.svg);
+}
+
+li.nav-item:nth-child(4)>a {
+    background-color: #ecfccb;
+}
+
+li.nav-item:nth-child(4)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-tablet-red.svg);
+}
+
+li.nav-item:nth-child(5)>a {
+    background-color: #d1fae5;
+}
+
+li.nav-item:nth-child(5)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-laptop-red_1.svg);
+}
+
+li.nav-item:nth-child(6)>a {
+    background-color: #ccfbf1;
+}
+
+li.nav-item:nth-child(6)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-watch-red_1.svg);
+}
+
+li.nav-item:nth-child(7)>a {
+    background-color: #e0f2fe;
+}
+
+li.nav-item:nth-child(7)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-thucu-red.svg);
+}
+
+li.nav-item:nth-child(8)>a {
+    background-color: #e0e7ff;
+}
+
+li.nav-item:nth-child(8)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-airpod-red.svg);
+}
+
+li.nav-item:nth-child(9)>a {
+    background-color: #ede9fe;
+}
+
+li.nav-item:nth-child(9)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-hangcu-red.svg);
+}
+
+li.nav-item:nth-child(10)>a {
+    background-color: #fae8ff;
+}
+
+li.nav-item:nth-child(10)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-repair-phone-red.svg);
+}
+
+li.nav-item:nth-child(11)>a {
+    background-color: #fce7f3;
+}
+
+li.nav-item:nth-child(11)>a::before {
+    background-image: url(//clickbuy.com.vn/uploads/2022/07/icon-news-red.svg);
+}
+
+li.nav-item.show>a {
+    background-color: #fdb4b4;
+}
+
+ul.sub-menu.sub-1 {
+    display: none;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    width: calc(100% - 80px);
+    top: 0;
+    -webkit-box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: calc(100% - 129px);
+    padding: 10px 10px 20px;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+li.nav-item.show ul.sub-menu.sub-1 {
+    display: block;
+}
+
+ul.sub-menu.sub-1 a {
+    color: #343434;
+    display: block;
+    padding: 10px 0;
+}
+ul.sub-menu.sub-1>li>a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ul.navbar-nav a {
+    position: relative;
+}
+
+ul.sub-menu.sub-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.sub-menu.sub-2 li {
+    margin: 1.6%;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 5px 10px;
+}

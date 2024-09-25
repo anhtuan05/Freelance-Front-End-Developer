@@ -1,0 +1,265 @@
+/* banner */
+.banner-anamigo {
+    height: 707px;
+    width: 100%;
+    overflow-y: hidden;
+    background-image: url('../img/banner-amigo.gif');
+    background-size: cover;
+    background-position: center center;
+}
+
+.banner-anamigo-content {
+    text-align: left;
+    padding: 150px 400px;
+    line-height: 1.5;
+}
+
+.banner-anamigo-content h1 {
+    font-size: 86px;
+}
+
+.banner-anamigo-content p {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.banner-anamigo-content .btn-grey {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 60px;
+    margin-top: 20px;
+    border-width: 4px;
+    background-color: var(--default-color-white);
+}
+
+.banner-anamigo-content .btn-grey:hover {
+    background-color: var(--default-color-black);
+    color: var(--default-color-white);
+}
+
+
+.img-title {
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* an-insider-img-w */
+.an-insider-img-w-content {
+    display: flex;
+    justify-content: center;
+}
+
+.an-insider-img-w-content-img {
+    width: 25%;
+}
+
+/* how-to-find-coins */
+.how-to-find-coins {
+    padding: 0 120px;
+}
+
+.how-to-find-coins-title p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.how-to-find-coins-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.how-to-find-coins-content-img {
+    width: 30%;
+    margin: 30px 18px 0 18px;
+}
+
+/* an-coin-used */
+.an-coin-used-title p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.an-coin-used-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.an-coin-used-content-img {
+    width: 32%;
+}
+
+/* anamigo-ctv */
+.anamigo-ctv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.anamigo-ctv-l,
+.anamigo-ctv-r {
+    width: 48%;
+}
+
+.anamigo-ctv-r-title.img-title {
+    width: 100%;
+}
+
+.anamigo-ctv-r-title p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.anamigo-ctv .btn-yellow {
+    color: var(--default-color-white);
+    padding: 10px 20px 10px 22px;
+    font-size: 14px;
+    background-color: var(--default-color-yellow);
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin: 40px auto;
+    line-height: 1.5;
+}
+
+.anamigo-ctv .btn-yellow img {
+    width: 26px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+    left: -5px;
+}
+
+/* An Insider FAQs */
+.an-insider-faqs-item {
+    width: 100%;
+    box-shadow: 0 0 5px 0.5px rgb(0 0 0 / 7%);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.an-insider-faqs .title-h4,
+.an-insider-faqs .title-h5 {
+    text-align: left;
+}
+
+.an-insider-faqs .title-h5 {
+    margin-bottom: 10px;
+}
+
+.an-insider-faqs .title-h4 {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.toggle-title-faq {
+    cursor: pointer;
+    color: var(--default-color-green);
+    padding: 15px;
+    position: relative;
+}
+
+.toggle-content-faq {
+    display: none;
+    padding: 15px;
+}
+
+.toggle-content-p {
+    margin-bottom: 25px;
+}
+
+.toggle-content-p-2 {
+    margin-bottom: 10px;
+}
+
+.toggle-content-p-3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.toggle-content-p-4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.toggle-content-ul li {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+.toggle-content-ul li:before {
+    content: '✓ ';
+}
+
+.toggle-content-ul.toggle-content-ul-d {
+    padding: 0 20px;
+}
+
+.toggle-content-ul.toggle-content-ul-d li {
+    padding-left: 10px;
+    line-height: 2;
+    list-style-type: decimal;
+}
+
+.toggle-content-ul.toggle-content-ul-d li:before {
+    content: '';
+}
+
+.toggle-title-faq.active .vc_toggle_icon::after {
+    content: "";
+    width: 45px;
+    display: block;
+    background: #ff4064;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.an-insider-faqs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.an-insider-faqs-content-l {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+}
+
+.an-insider-faqs-content-l a,
+.an-insider-faqs-content-r a {
+    color: var(--default-color-green);
+}
+
+.an-insider-faqs-content-r {
+    width: 68%;
+}
+
+.an-insider-faqs-content-r i.fa::before {
+    font-size: 18px;
+}
+
+.toggle-content-faq .btn-green-faqs {
+    color: var(--default-color-white);
+    background-color: var(--default-color-green);
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin: 15px 0;
+}

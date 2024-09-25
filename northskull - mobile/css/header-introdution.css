@@ -1,0 +1,56 @@
+.ecl-category-data-header {
+    background: url('https://northskull.com/images/detailed/11/man8_l745-op_elxv-hg.jpg?t=1638800406');
+}
+
+.category-landing .section-header {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 15px 20px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.category-landing .section-header h1 {
+    letter-spacing: .15em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    box-sizing: inherit;
+    font-weight: normal;
+}
+
+.category-landing .section-header h1 {
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    margin-bottom: 15px;
+}
+
+.category-landing .section-header p {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.category-landing .section-header p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-left: 0;
+    max-width: 610px;
+    letter-spacing: 0;
+}

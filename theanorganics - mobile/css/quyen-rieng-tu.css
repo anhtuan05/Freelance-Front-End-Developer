@@ -1,0 +1,23 @@
+/* privacy */
+.privacy {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: var(--default-box-shadow);
+    line-height: 1.5;
+    font-size: 16.8px;
+    padding: 30px;
+}
+
+.privacy p {
+    margin-bottom: 10px;
+}
+
+.privacy p a {
+    color: var(--default-color-green);
+}
+
+.privacy .privacy-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}

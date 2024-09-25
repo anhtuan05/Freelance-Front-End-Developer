@@ -1,0 +1,211 @@
+body,
+p {
+    border: 0;
+    font-size: 100%;
+    line-height: 1.5;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif !important;
+}
+
+
+a {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: #444444;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #e13535;
+}
+
+strong {
+    color: #e13535;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+
+/* hearder */
+.header-dt {
+    width: 100%;
+    position: relative;
+}
+
+.banner {
+    position: relative;
+    z-index: 1;
+    height: 220px;
+    width: 100%;
+}
+
+.bannerimg {
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+    height: 240px;
+}
+
+img {
+    max-width: 100%;
+    box-shadow: none;
+    height: auto;
+}
+
+.banner_img img {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    height: 240px;
+}
+
+/* <!-- Thông tin  --> */
+
+.box {
+    position: relative;
+    height: auto;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 4px 4px 0px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 6px 0 rgb(185 192 198 / 10%), 0 0px 6px 2px rgb(155 146 146 / 15%);
+}
+
+h2 {
+    color: #444444;
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.tracuu {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.tracuu_form {
+    display: flex;
+    width: 42%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    padding: 7px 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgb(185 192 198 / 10%), 0 0px 6px 2px rgb(155 146 146 / 15%);
+    border-radius: 4px;
+}
+
+.tracuu_form_icon {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.popup {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    box-sizing: inherit;
+    opacity: 0.8;
+}
+
+/* san pham */
+.mobi_menu_item {
+    padding: 10px 5px 5px;
+    background: #fff;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.mobi_menu_item a {
+    display: inline-grid;
+    position: relative;
+    width: 33%;
+    height: auto;
+    box-shadow: 0 1px 6px 0 rgb(185 192 198 / 10%), 0 0px 6px 2px rgb(155 146 146 / 15%);
+    margin: 0 0 5px 1.18%;
+    border-radius: 4px;
+    padding: 5px 7.5%;
+}
+
+.mobi_menu_item a h4{
+    box-sizing: border-box;
+}
+
+/* form tổng đài hỗ trợ */
+.form {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 1px 6px 0 rgb(185 192 198 / 10%), 0 0px 6px 2px rgb(155 146 146 / 15%);
+    border-radius: 4px;
+}
+
+.iconimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.iconimg .icon {
+    width: 35px;
+    height: 35px;
+}
+
+.form .note {
+    display: flex;
+    flex-direction: column;
+    gap: normal;
+}
+
+.title {
+    height: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    color: #ff0000;
+}
+
+.note span {
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.text {
+    margin-bottom: 4px;
+}
+
+.popup .text {
+    color: #444;
+    font-size: 12px;
+    text-align: center;
+    height: auto;
+}
+
+.call {
+    line-height: 20px;
+    color: #e13535;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.popup .note p a{
+    display: block;
+    line-height: 17px;
+}
+

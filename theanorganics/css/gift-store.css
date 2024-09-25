@@ -1,0 +1,35 @@
+.list-voucher {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.list-voucher-item {
+    width: 23.5%;
+    margin: 0 10px;
+}
+
+.list-voucher-item-name {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.list-voucher-item-content {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.list-voucher-item-span {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: var(--default-color-red);
+}
+
+.list-voucher-item-mark {
+    margin: 0 auto;
+    color: var(--default-color-white);
+    background-color: var(--default-color-black-2);
+    padding: 10px 15px;
+    text-align: center;
+    width: 30%;
+}

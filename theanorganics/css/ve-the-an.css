@@ -1,0 +1,44 @@
+/* ve the an */
+.ve-the-an {
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: var(--default-box-shadow);
+}
+
+.ve-the-an p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+    font-size: 16.8px;
+}
+
+.ve-the-an .title-h5 {
+    margin: 40px 0 10px 0;
+    text-align: left;
+    font-size: 24px;
+    color: var(--default-color-black);
+}
+
+.ve-the-an .ve-the-an-bottom p {
+    font-size: 24px;
+    color: var(--default-color-black-2);
+    margin-top: 50px;
+}
+
+.ve-the-an .ve-the-an-bottom>div {
+    width: 100%;
+    min-height: 14px;
+    margin-top: 40px;
+    background: url(https://www.clker.com/cliparts/R/a/s/l/x/V/arrow-up-gray-md.png) 0px center repeat-x;
+    background-size: 17px;
+}
+
+.section-review.ve-the-an {
+    background-color: var(--default-color-white);
+}
+
+.section-review.ve-the-an .shortcode-wcpr-gird {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(75, 1px);
+    grid-gap: 20px;
+}

@@ -1,0 +1,30 @@
+.banner {
+    background-image: none;
+    height: 520px;
+    padding: 80px 695px 0px 150px;
+    background-color: #0b1337;
+}
+
+.banner img {
+    position: absolute;
+    width: 345px;
+    height: 390px;
+    top: 28%;
+    right: 20%;
+}
+
+.banner h1 {
+    font-size: 48px;
+    color: var(--text-color-w);
+}
+
+.banner p {
+    font-size: 20px;
+    color: var(--text-color-w);
+    margin: 32px 0 50px 0;
+    line-height: 1.7;
+}
+
+.banner .btn-default {
+    padding: 15px 35px;
+}

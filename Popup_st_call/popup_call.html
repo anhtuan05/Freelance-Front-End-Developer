@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css_popup_call.css">
+</head>
+<script>
+    function openPopupCallShow() {
+        document.getElementById("show-popup-call").style.display = "block";
+    }
+    function closePopupCallShow() {
+        document.getElementById("show-popup-call").style.display = "none";
+    }
+</script>
+<body>
+    <button type="button" class="click_call" onclick="openPopupCallShow()"><i class="fa fa-phone"></i> GỌI LẠI CHO TÔI</button>
+
+    <div class="pop_up_call" id="show-popup-call">
+        <div class="popup_st_call">
+            <div class="header_popup">
+                <h3>DỊCH VỤ HỖ TRỢ "TƯ VẤN MIỄN PHÍ"</h3>
+                <div class="button-close-popup_call" onclick="closePopupCallShow()">Đóng x</div>
+            </div>
+            <div class="call_content">
+                <div class="block_pro">
+                    <p><img width="200px"
+                            src="//cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture//Apro/Apro_product_31379/tu-lanh-lg-inve_main_695_1020.png.webp"
+                            alt="Tủ Lạnh LG Inverter 217 Lít GV-B212WB" class="lazy loaded"></p>
+                    <div class="des">
+                        <h2>Tủ Lạnh LG Inverter 217 Lít GV-B212WB</h2><strong>Giá bán</strong>
+                        <!--giá bán-->
+                        <!-- <img src="" id="imageproductcall"
+                            style="padding-bottom: 0px;display:inline-block;margin-top: -6px;"> -->
+                        <h2 style="color: red;">4.990.000 Đ</h2>
+                    </div>
+                </div>
+                <div>
+                    <form id="from_call_me" name="frmPayByPayoo" method="POST" class="from_pro"><span>(*) Thông tin bắt
+                            buộc</span>
+                        <div><input type="text" name="name" placeholder="Nhập họ &amp; tên của bạn (*)"></div>
+                        <div><input type="text" name="phone" placeholder="Nhập số điện thoại của bạn (*)"></div>
+                        <div><input type="text" name="email" placeholder="Nhập email của bạn (*)"></div>
+                        <div><input type="text" name="consultant" placeholder="Nội dung cần tư vấn"></div>
+                        <div class="note">
+                            Dịch vụ hỗ trợ "Tư vấn miễn phí" cho khách hàng hoạt động từ 8h30 - 21h
+                            hằng ngày.
+                        </div>
+                        <button type="submit">GỬI THÔNG TIN</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

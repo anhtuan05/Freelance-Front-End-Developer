@@ -1,0 +1,80 @@
+/* form hoàn an xu */
+.hoan-an-xu {
+    max-width: 100%;
+    margin: 50px auto;
+    box-shadow: var(--default-box-shadow);
+}
+
+.hoan-an-xu .hoan-an-xu-title {
+    background-color: var(--default-color-white);
+    padding: 40px 5%;
+}
+
+.hoan-an-xu .title-h3,
+.hoan-an-xu .title-h4 {
+    margin-bottom: 10px;
+    color: var(--default-color-black);
+}
+
+.hoan-an-xu .title-h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.hoan-an-xu .title-h4 {
+    font-size: 18px;
+}
+
+.hoan-an-xu .hoan-an-xu-content {
+    background-color: #fafafa;
+    padding: 40px 5% 10px;
+    box-sizing: border-box;
+}
+
+.hoan-an-xu .hoan-an-xu-item {
+    margin-bottom: 50px;
+}
+
+.hoan-an-xu .hoan-an-xu-item label {
+    font-size: 18px;
+    color: var(--default-color-black);
+    display: block;
+    margin-bottom: 15px;
+}
+
+.hoan-an-xu .hoan-an-xu-item label span {
+    color: var(--default-color-red);
+}
+
+.hoan-an-xu .hoan-an-xu-item p {
+    color: var(--default-color-black-2);
+    margin-bottom: 15px;
+}
+
+.hoan-an-xu .hoan-an-xu-item input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--default-color-grey);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.hoan-an-xu .hoan-an-xu-item input[type="submit"] {
+    width: 20%;
+    text-align: center;
+    color: var(--default-color-white);
+    background-color: blue;
+}
+
+.hoan-an-xu .hoan-an-xu-item textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--default-color-grey);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.hoan-an-xu .hoan-an-xu-item input:focus-visible,
+.hoan-an-xu-item textarea:focus-visible {
+    outline: none;
+}

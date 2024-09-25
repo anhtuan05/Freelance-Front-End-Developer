@@ -1,0 +1,258 @@
+/* section-review */
+.section-review .title-h3 {
+    margin-bottom: 20px;
+}
+
+.section-review .title-h5 {
+    font-style: italic;
+}
+
+.section-review {
+    background-color: var(--default-color-grey-2);
+}
+
+.review-accuracy {
+    width: 200px;
+    margin: 30px 0 30px 50%;
+    transform: translate(-50%, 0);
+}
+
+.btn-review-bottom {
+    padding: 0;
+    margin: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: transparent;
+    border: 1px solid #e5e5e5;
+}
+
+.btn-review {
+    line-height: 1;
+    color: #fff;
+    background-color: var(--default-color-black);
+    transition: all 300ms ease-in-out 0s;
+    border-radius: 2px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 10px 5px;
+    font-size: 15px;
+    min-width: 250px;
+    width: 125px
+}
+
+.review-rating .btn-review {
+    margin: 5px;
+}
+
+.review-rating .btn-review-bottom-rating-placeholder.btn-review {
+    margin: 10px 5px;
+}
+
+.review-rating {
+    position: relative;
+}
+
+ul.btn-review-bottom-button-ul {
+    position: absolute;
+    z-index: 999;
+    padding: 0;
+    display: none;
+}
+
+.btn-review-bottom-container li.btn-review-bottom-button-li {
+    margin: 0;
+    display: inline-block;
+}
+
+.btn-review:hover {
+    color: var(--default-color-white);
+}
+
+/* block-review */
+.shortcode-wcpr-gird {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(75, 1px);
+    grid-gap: 20px;
+}
+
+/* @media screen and (max-width: 530px) {
+    .shortcode-wcpr-gird {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(75, 1px);
+        grid-gap: 20px;
+    }
+
+    .item-span-46 {
+        grid-row-end: span 47;
+    }
+} */
+
+.shortcode-wcpr-grid-item {
+    background-color: #fff;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 3px 4px 8px rgba(0, 0, 0, .2);
+}
+
+.shortcode-wcpr-grid-item:hover {
+    box-shadow: 3px 4px 15px rgba(0, 0, 0, .4);
+}
+
+.shortcode-reviews-images-wrap-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shortcode-reviews-images {
+    border-radius: 2px 2px 0 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.shortcode-reviews-images-container .shortcode-images-qty {
+    text-align: center;
+    background-color: #212121;
+    color: #fff;
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+}
+
+.shortcode-review-content-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.shortcode-wcpr-comment-author {
+    margin: 0;
+    padding: 5px 0 0;
+    font-weight: 700;
+}
+
+.wcpr-review-rating,
+.wcpr-review-custom-field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1em;
+    padding: 0;
+}
+
+.wcpr-review-custom-field {
+    margin-top: 5px;
+}
+
+.wcpr-review-date {
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 5px 0;
+}
+
+.shortcode-wcpr-review-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.shortcode-wcpr-review-content {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.wcpr-comment-helpful-button-container {
+    margin: 5px 0;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 2em;
+    border-top: 1px solid rgba(1, 1, 1, 0.1);
+    border-bottom: 1px solid rgba(1, 1, 1, 0.1);
+    flex-wrap: wrap;
+    padding: 5px 15px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.shortcode-wcpr-single-product-summary-content-wrapper {
+    padding-top: 15px;
+}
+
+.shortcode-wcpr-single-product-summary-meta-title,
+.shortcode-wcpr-single-product-summary-meta-reviews,
+.shortcode-wcpr-single-product-summary-meta-price {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.shortcode-wcpr-grid-item .fa:before {
+    font-size: 14px;
+}
+
+.shortcode-wcpr-grid-item .fa-check-circle-o:before {
+    color: var(--default-color-green);
+}
+
+.shortcode-wcpr-grid-item .fa.fa-star {
+    margin: 5px 0 0;
+}
+
+.shortcode-wcpr-grid-item i.fa.fa-comments {
+    margin-left: 0;
+}
+
+.shortcode-wcpr-grid-item .fa.fa-star::before {
+    color: var(--default-color-yellow);
+}
+
+.shortcode-wcpr-single-product-summary-content-wrapper {
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.shortcode-wcpr-single-product-summary-content-wrapper img {
+    width: 150px;
+    display: block;
+    margin: 10px 0;
+}
+
+.shortcode-wcpr-single-product-summary-content-wrapper a {
+    margin: 10px 0;
+}
+
+.shortcode-wcpr-single-product-summary-content-wrapper .single-product-summary-price {
+    font-weight: 600;
+    color: var(--default-color-green);
+    margin: 10px 0;
+}
+
+.btn-dw {
+    background: rgba(1, 1, 1, .6);
+    color: #fff;
+    border-radius: 4px;
+    width: 92px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    text-align: center;
+}

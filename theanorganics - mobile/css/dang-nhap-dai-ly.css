@@ -1,0 +1,34 @@
+/* form đăng nhập đại lý */
+.agent-login form {
+    padding: 20px;
+    margin: 0px auto;
+    max-width: 450px;
+    box-shadow: var(--default-box-shadow);
+}
+
+.agent-login form p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.agent-login form p label {
+    margin-bottom: 10px;
+}
+
+.agent-login form p label span {
+    color: var(--default-color-red);
+}
+
+.agent-login form p .input {
+    padding: 10px;
+}
+
+.agent-login form div a {
+    margin-right: 50px;
+    color: var(--default-color-green);
+}
+
+.agent-login form div {
+    margin-top: 20px;
+}

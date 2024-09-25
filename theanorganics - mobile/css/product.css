@@ -1,0 +1,230 @@
+/* block sản phẩm */
+.product {
+    width: 50%;
+    height: 470px;
+    box-sizing: border-box;
+    padding: 4%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card {
+    width: 100%;
+    height: 40%;
+}
+
+.product-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.product-card:hover .product-card-inner {
+    transform: rotateY(180deg);
+}
+
+.product-card-front,
+.product-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.product-card-front {
+    z-index: 2;
+}
+
+.product-card-back {
+    transform: rotateY(180deg);
+    color: white;
+    z-index: 1;
+    opacity: 0;
+}
+
+.product-card:hover .product-card-back {
+    opacity: 1;
+}
+
+.product-image {
+    width: auto;
+    height: auto;
+    max-height: 160px;
+}
+
+.product-image.out-of-stock {
+    opacity: 0.3;
+}
+
+.product-recomend {
+    font-weight: 600;
+    font-size: 14px;
+    font-style: italic;
+    color: var(--default-color-pink);
+    text-transform: uppercase;
+    width: 80%;
+    background-color: var(--default-color-beige);
+    text-align: center;
+    padding: 3px 0;
+    position: absolute;
+    top: 36%;
+}
+
+.product-sale {
+    position: absolute;
+    top: 3%;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: var(--default-color-pink);
+    color: var(--default-color-white);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.product-out-of-stock {
+    position: absolute;
+    top: 3%;
+    left: 45%;
+    background-color: var(--default-color-black);
+    color: var(--default-color-white);
+    padding: 10px 10%;
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.product-name {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.product-rating {
+    color: var(--default-color-green);
+    width: 100%;
+    background-color: var(--default-color-beige);
+    text-align: center;
+    padding: 3px 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.product-price {
+    margin-bottom: 10px;
+    color: var(--default-color-green);
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-price-old {
+    font-size: 12px;
+    color: var(--default-color-black);
+    text-decoration: line-through;
+    margin-right: 3px;
+}
+
+.product-btn-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product-btn-bottom a {
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.product-btn-bottom a.btn-buy {
+    color: var(--default-color-green);
+    background-color: var(--default-color-beige);
+    text-align: center;
+}
+
+.product-btn-bottom a.btn-view {
+    background-color: var(--default-color-white);
+}
+
+.product .fa-heart-o:before {
+    color: var(--default-color-pink);
+}
+
+.product .fa-heart:before {
+    color: var(--default-color-pink);
+}
+
+.product .fa:before {
+    font-size: 14px;
+}
+
+/* product-2 */
+.product.p-2 {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product.p-2 .product-card {
+    height: 530px;
+    width: 100%;
+}
+
+.product.p-2 .product-image {
+    max-width: 100%;
+    max-height: initial;
+}
+
+.product.p-2 .product-content {
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+    line-height: 2;
+}
+
+.product.p-2 .product-content .product-name {
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.5;
+    justify-content: start;
+}
+
+.product.p-2 .product-content ul li:before {
+    content: '✓ ';
+}
+
+.product.p-2 .product-content .btn-bottom {
+    flex-direction: column;
+    align-items: start;
+}
+
+.product.p-2 .product-content .btn-bottom a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.product.p-2 .product-recomend {
+    top: 25%;
+    width: 91.5%;
+}

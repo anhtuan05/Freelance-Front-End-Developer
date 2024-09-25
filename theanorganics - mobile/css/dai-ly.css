@@ -1,0 +1,19 @@
+.agency p {
+    margin-bottom: 20px;
+}
+
+.agency a {
+    display: block;
+    color: var(--default-color-green);
+    margin-bottom: 20px;
+}
+
+.agency a.btn-black {
+    color: var(--default-color-white);
+    text-align: center;
+    width: 50%;
+}
+
+.agency a.btn-black i.fa::before {
+    font-size: 18px;
+}

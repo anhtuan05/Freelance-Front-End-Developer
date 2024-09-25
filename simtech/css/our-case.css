@@ -1,0 +1,57 @@
+/* our-cases */
+.our-cases {
+    max-width: 100%;
+    height: auto;
+    padding: 60px 160px 80px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-cases h1 {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+.our-cases-item {
+    border-radius: 5px;
+    width: 31.7%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+}
+
+.our-cases-item:hover {
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .15);
+}
+
+.our-cases-item-img {
+    width: 100%;
+    height: 255px;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+}
+
+.our-cases-item-img::after {
+    display: block;
+    content: "";
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .35), transparent 75%);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    transition: all .3s ease-out;
+}
+
+.our-cases-item-img img {
+    height: 100%;
+    width: auto;
+}
+
+.our-cases-item h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 45px 0 25px 35px;
+}

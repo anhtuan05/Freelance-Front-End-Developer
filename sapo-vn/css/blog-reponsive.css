@@ -1,0 +1,58 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .d-xl-block {
+        display: block!important;
+    }
+    .col-xl-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    /* đọc gì hôm nay */
+    .d-lg-block {
+        display: block!important;
+    }
+    /* --- */
+    .col-lg-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+@media (max-width: 1199px) and (min-width: 991px) {
+    .slideStyle_index-slide__avpJR {
+        max-height: 290px;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container {
+        max-width: 540px;
+    }
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+

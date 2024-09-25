@@ -1,0 +1,301 @@
+:root {
+    --default-color-green: #07876a;
+    --default-color-beige: #f5f5dc;
+    --default-color-yellow: #fbb917;
+    --default-color-zalo: #0068ff;
+    --default-color-facebook: linear-gradient(83.84deg, #0088FF 0%, #A033FF 30%, #FF5C87 75.58%);
+    --default-color-black: #323232;
+    --default-color-black-2: #646464;
+    --default-color-grey: #ededed;
+    --default-color-grey-2: #f8f4f2;
+    --default-color-pink: #FF8189;
+    --default-color-pink-2: rgb(255, 130, 136, 70%);
+    --default-color-red: #d42840;
+    --default-color-white: #fff;
+
+    --default-box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    --default-box-shadow-1: rgb(50 50 93 / 0%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: var(--default-color-black);
+}
+
+a:hover {
+    color: var(--default-color-green);
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: url('https://icons.veryicon.com/png/o/miscellaneous/8atour/filter-arrow-down.png') no-repeat right 15px center;
+    background-size: 10px 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.input {
+    border: 1px solid #bdbdbd;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    transform: scale(1.3);
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox label::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+label::before {
+    content: "\2713";
+    color: #007bff;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.textarea {
+    overflow: auto;
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    background: none;
+    font-size: 18px;
+}
+
+.input:focus-visible,
+.textarea:focus-visible {
+    outline: none;
+}
+
+i.fa {
+    margin: 0 5px;
+}
+
+.fa:before {
+    font-size: 12px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 65px 2.5%;
+    box-sizing: border-box;
+}
+
+.container-2 {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 65px 0;
+}
+
+.title-green {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--default-color-green);
+    margin: 10px 0 20px;
+}
+
+.title-default {
+    background-color: var(--default-color-grey);
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.title-h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 400;
+    color: var(--default-color-black-2);
+}
+
+.title-h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: var(--default-color-black-2);
+}
+
+.title-h5 {
+    font-size: 16px;
+    text-align: center;
+    color: var(--default-color-black-2);
+    font-weight: 400;
+}
+
+.btn-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.btn-blue {
+    color: var(--default-color-zalo);
+    margin-bottom: 10px;
+}
+
+.btn-green {
+    color: var(--default-color-white);
+    padding: 15px 5%;
+    font-size: 18px;
+    background-color: var(--default-color-green);
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.btn-green:hover {
+    color: var(--default-color-white);
+}
+
+.btn-close {
+    color: var(--default-color-black-2);
+    padding: 15px 14%;
+    font-size: 18px;
+    background-color: var(--default-color-grey);
+    border-radius: 4px;
+}
+
+.btn-pink {
+    color: var(--default-color-white);
+    background-color: var(--default-color-pink);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid var(--default-color-pink);
+    margin: 10px 0;
+}
+
+.btn-black {
+    color: var(--default-color-white);
+    background-color: var(--default-color-black);
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid var(--default-color-black);
+}
+
+.btn-fb {
+    color: var(--default-color-white);
+    background: var(--default-color-facebook);
+    padding: 12.5px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.btn-zalo {
+    color: var(--default-color-white);
+    background-color: var(--default-color-zalo);
+    padding: 10px 70px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid var(--default-color-zalo);
+}
+
+a.btn-pink:hover,
+a.btn-fb:hover,
+a.btn-zalo:hover {
+    color: var(--default-color-white);
+}
+
+.btn-grey {
+    color: var(--default-color-black);
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 3px solid var(--default-color-black);
+}
+
+a.btn-grey:hover {
+    color: var(--default-color-black);
+}
+
+.btn-grey:hover {
+    background-color: var(--default-color-white);
+}
+
+.item-span-52 {
+    grid-row-end: span 52;
+}
+
+.item-span-46 {
+    grid-row-end: span 46;
+}
+
+.item-span-47 {
+    grid-row-end: span 48;
+}
+
+.item-span-23 {
+    grid-row-end: span 23;
+}
+
+.item-span-21 {
+    grid-row-end: span 19;
+}
+
+.item-span-20 {
+    grid-row-end: span 15;
+}

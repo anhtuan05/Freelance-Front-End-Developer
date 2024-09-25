@@ -1,0 +1,98 @@
+/* b-section */
+.b-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-section a {
+    width: 32%;
+}
+
+/* product */
+.product-hot-content,
+.product-new-content,
+.product-combo-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-new {
+    background: #f8f4f2 url(https://theanorganics.com/wp-content/uploads/2022/03/mask-top-1.png?id=42738);
+    background-repeat: repeat-x;
+}
+
+/* section-freeship */
+.section-freeship {
+    background-color: var(--default-color-grey);
+}
+
+.section-freeship h3 {
+    font-size: 23px;
+}
+
+/* section-chat */
+.section-chat {
+    background-color: var(--default-color-grey-2);
+}
+
+/* section-introduce */
+.section-introduce {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-introduce-content,
+.section-introduce-img {
+    width: 49%;
+}
+
+.section-introduce-content {
+    font-size: 16.8px;
+    line-height: 2;
+    color: var(--default-color-black);
+}
+
+.section-introduce-content h4 {
+    font-size: 23px;
+    margin: 32px 0 11px;
+    font-weight: 400;
+    color: var(--default-color-black);
+}
+
+/* section-mom-baby */
+.section-mom-baby.container {
+    padding-left: 410px;
+    padding-right: 410px;
+}
+
+.section-mom-baby .title-h3,
+.section-mom-baby .title-h4 {
+    text-align: left;
+}
+
+.section-mom-baby p {
+    font-size: 16.8px;
+    line-height: 2;
+    color: var(--default-color-black);
+}
+
+.section-mom-baby .title-h5 {
+    margin: 20px 0;
+}
+
+/* section blog */
+.section-knowledge-documentation {
+    background: var(--default-color-grey) url(https://theanorganics.com/wp-content/uploads/2022/03/mask-top-1.png?id=42738);
+    background-repeat: repeat-x;
+}
+
+/* single_image */
+.wpb_single_image img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}

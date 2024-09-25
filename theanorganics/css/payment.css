@@ -1,0 +1,281 @@
+/* page thanh toán */
+.payment-container {
+    box-shadow: var(--default-box-shadow);
+    font-size: 18px;
+}
+
+.payment-container-title {
+    border-bottom: 3px dotted var(--default-color-grey);
+    padding: 0 30px 40px;
+    font-size: 20px;
+}
+
+.payment-container-title-1,
+.payment-container-title-2 {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+.payment-container-title-1 a,
+.payment-container-title-2 a {
+    color: var(--default-color-green);
+}
+
+.payment-container-title-1 {
+    border-left: 5px solid var(--default-color-green);
+
+}
+
+.payment-container-title-2 {
+    border-left: 5px solid var(--default-color-pink);
+
+}
+
+.payment-container-title-sale {
+    padding: 15px 20px;
+    color: var(--default-color-green);
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.payment-container-title-sale>span:nth-child(2) {
+    font-weight: 600;
+}
+
+/*  */
+.payment-container-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 30px 0;
+}
+
+.payment-container-content-order-information,
+.payment-container-content-your-order {
+    width: 48%;
+}
+
+.payment-container-content-order-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-container-content-order-information form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.payment-container-content-order-information label {
+    margin-bottom: 10px;
+}
+
+.payment-container-content-order-information form .input-h {
+    width: 42%;
+}
+
+.payment-container-content-order-information form .select-h {
+    width: 48%;
+}
+
+.payment-container-content-order-information form .input-f {
+    width: 100%;
+}
+
+.payment-container-content-order-information form.form-order-information-option {
+    display: none;
+}
+
+.order-information-option {
+    margin-bottom: 20px;
+}
+
+.order-information-option .title-green {
+    margin-left: 20px;
+}
+
+.order-information-option .title-green i.fa::before {
+    font-size: 22px;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 4px;
+    border: 1px solid #bdbdbd;
+}
+
+.popup-content .input {
+    margin-bottom: 0;
+}
+
+/* your-order-table */
+.your-order-table {
+    width: 80%;
+    margin-top: 20px;
+}
+
+.your-order-table thead th {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 2px dotted var(--default-color-grey);
+}
+
+.your-order-table thead th:first-child {
+    text-align: left;
+}
+
+.your-order-table thead th:last-child {
+    text-align: right;
+}
+
+.your-order-table td {
+    padding: 20px 0;
+    line-height: 1.5;
+}
+
+.your-order-table-td-1 {
+    width: 20%;
+    text-align: left;
+}
+
+.your-order-table-td-1 .your-order-img-product {
+    width: 30%;
+}
+
+.your-order-table-td-2 {
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.your-order-table tfoot th {
+    font-weight: 400;
+    text-align: left;
+}
+
+.your-order-table tfoot td {
+    text-align: right;
+}
+
+.your-order-table tfoot td span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.your-order-table tfoot>tr:nth-child(1)>td,
+.your-order-table tfoot>tr:nth-child(1)>th {
+    border-top: 2px dotted var(--default-color-grey);
+}
+
+.your-order-table tfoot>tr:nth-child(2)>td,
+.your-order-table tfoot>tr:nth-child(2)>th {
+    border-bottom: 2px dotted var(--default-color-grey);
+    border-top: 2px dotted var(--default-color-grey);
+}
+
+.your-order-table tfoot>tr:nth-child(3)>td,
+.your-order-table tfoot>tr:nth-child(3)>th {
+    border-bottom: 2px dotted var(--default-color-grey);
+}
+
+.your-order-table tfoot>tr:nth-child(2)>td span {
+    color: var(--default-color-green);
+}
+
+.your-order-table tfoot>tr:nth-child(3)>td span {
+    color: var(--default-color-pink);
+}
+
+/* your-order-payment-methods */
+.your-order-payment-methods {
+    padding: 40px 20px 0 30px;
+    line-height: 1.5;
+    width: 80%;
+}
+
+.your-order-payment-methods label {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.your-order-payment-methods input {
+    margin-right: 20px;
+}
+
+.your-order-payment-methods .payment-options {
+    display: none;
+    width: 90%;
+}
+
+.your-order-payment-methods .payment-options-c {
+    margin-bottom: 30px;
+}
+
+/* your-order-terms */
+.your-order-terms {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.your-order-terms a {
+    color: var(--default-color-green);
+}
+
+/* your-order-voucher */
+.your-order-voucher {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.your-order-voucher form .input {
+    padding: 15px 20px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.your-order-voucher form {
+    display: flex;
+}
+
+.your-order-voucher form .btn-pink {
+    width: 35%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* your-order-btn */
+.your-order-btn {
+    width: 32%;
+}
+
+.your-order-btn .btn-pink {
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 20px;
+}

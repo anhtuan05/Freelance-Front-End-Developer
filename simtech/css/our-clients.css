@@ -1,0 +1,109 @@
+/* our-clients */
+.our-clients {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 0 160px 80px;
+    background-color: #f3f5f9;
+}
+
+.our-clients-title {
+    background-image: url(https://mldi5dmmdvnt.i.optimole.com/w:auto/h:auto/q:90/https://simtechdev.com/wp-content/uploads/2020/07/q.svg);
+    background-position: 60px 0px;
+    background-repeat: no-repeat;
+    background-size: 8% auto;
+    padding: 115px 0 60px;
+}
+
+.our-clients-title h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.our-clients-Swiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.our-clients-Swiper .swiper-slide {
+    background: #fff;
+    padding: 32px 50px;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 4px;
+}
+
+.our-clients-Swiper .swiper-slide:hover {
+    box-shadow: 0 16px 16px 0 rgba(84, 89, 95, 0.1);
+}
+
+
+.our-clients-swiper-slide-title {
+    display: flex;
+}
+
+.our-clients-swiper-slide-title img {
+    height: 30px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.our-clients-swiper-slide-title div {
+    display: flex;
+    flex-direction: column;
+}
+
+.our-clients-swiper-slide-title div span {
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.our-clients-swiper-slide-title div span:first-child {
+    color: #545d8d;
+}
+
+.our-clients-swiper-slide-title div span:last-child {
+    color: #788088;
+}
+
+.our-clients-swiper-slide-content p {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: var(--text-color-b3);
+}
+
+.our-clients-Swiper-container {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.our-clients-Swiper-container .swiper-button-next,
+.our-clients-Swiper-container .swiper-button-prev {
+    color: var(--text-color-w2);
+    top: 170px;
+}
+
+.our-clients-Swiper-container .swiper-button-next::after,
+.our-clients-Swiper-container .swiper-button-prev::after {
+    color: var(--text-color-w2);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.our-clients-Swiper-container .swiper-button-next {
+    right: -25px;
+}
+
+.our-clients-Swiper-container .swiper-button-prev {
+    left: -25px;
+}
+
+.our-clients-Swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--text-color-b3);
+}
+
+.our-clients-Swiper-container .swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 370px;
+}

@@ -1,0 +1,35 @@
+/* cửa hàng quà tặng */
+.list-voucher {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.list-voucher-item {
+    width: 100%;
+}
+
+.list-voucher-item-name {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+.list-voucher-item-content {
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.list-voucher-item-span {
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: var(--default-color-red);
+}
+
+.list-voucher-item-mark {
+    margin: 0 auto;
+    color: var(--default-color-white);
+    background-color: var(--default-color-black-2);
+    padding: 10px 15px;
+    text-align: center;
+    width: 30%;
+}

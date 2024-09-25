@@ -1,0 +1,129 @@
+/* agent-registration */
+.agent-registration {
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    padding: 30px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+/* agent-registration-notification */
+.agent-registration-notification {
+    margin-bottom: 40px;
+}
+
+.agent-registration-notification .title-h5 {
+    text-align: left;
+    color: var(--default-color-black);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.agent-registration-notification ul li {
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.agent-registration-notification ul li:before {
+    content: '✓ ';
+    margin-right: 5px;
+}
+
+/* agent-registration-form */
+.agent-registration-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agent-registration-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.agent-registration-form form input {
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.agent-registration-form form input:focus-visible {
+    outline: none;
+}
+
+.agent-registration-form form textarea {
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.agent-registration-form form textarea:focus-visible {
+    outline: none;
+}
+
+.agent-registration-form p {
+    width: 45%;
+    margin: 10px 20px 10px 0;
+}
+
+.agent-registration-form .content-about p {
+    width: 100%;
+    line-height: 1.5;
+}
+
+.agent-registration-form .brand {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agent-registration-form .brand p {
+    width: 12%;
+}
+
+.agent-registration-form .brand label {
+    font-weight: 400;
+}
+
+.agent-registration-form .brand .title-h5 {
+    text-align: left;
+    color: var(--default-color-black);
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.agent-registration-form .btn-bottom {
+    flex-direction: column;
+    width: 50%;
+}
+
+.agent-registration-form .btn-bottom a {
+    color: var(--default-color-green);
+    margin-right: 40px;
+}
+
+.agent-registration-form .btn-bottom .btn-pink {
+    width: 25%;
+    border-color: var(--default-color-pink);
+    background-color: var(--default-color-pink);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.agent-registration-form .btn-bottom p {
+    width: 100%;
+    margin: 0 0 20px 0;
+}

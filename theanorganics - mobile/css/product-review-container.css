@@ -1,0 +1,94 @@
+/* sản phẩm theo thương hiệu */
+.product-review-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.product-review-container {
+    padding-top: 0;
+}
+
+.product-review-container .section-review {
+    width: 100%;
+    background-color: var(--default-color-grey-2);
+    box-shadow: var(--default-box-shadow);
+}
+
+.product-review-container .section-review .shortcode-wcpr-gird {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(75, 1px);
+    grid-gap: 20px;
+}
+
+.product-review-container .section-review .title-h3 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.product-container {
+    width: 100%;
+    box-shadow: var(--default-box-shadow);
+}
+
+.product-list {
+    width: 100%;
+}
+
+.product-review-container .chat-the-an {
+    width: 100%;
+    box-shadow: var(--default-box-shadow);
+    height: auto;
+    padding-top: 40px;
+}
+
+.product-review-container .chat-the-an .title-h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.product-review-container .chat-the-an .btn-bottom {
+    width: 100%;
+}
+
+.product-review-container .chat-the-an .btn-bottom a.btn-zalo {
+    margin-bottom: 20px;
+}
+
+.product-review-container .chat-the-an .btn-bottom a.btn-grey {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 20px;
+}
+
+/*  */
+.sort-product {
+    display: flex;
+    padding: 0 30px;
+    width: 65%;
+    align-items: center;
+}
+
+.sort-product p {
+    font-size: 14px;
+    flex: 1 1 auto;
+}
+
+.sort-product .input {
+    padding: 15px 40px 15px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    border-radius: 0;
+}
+
+.wc-grid,
+.wc-list {
+    padding: 14px;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 14px;
+}
+
+.wc-list {
+    border-left: none;
+}

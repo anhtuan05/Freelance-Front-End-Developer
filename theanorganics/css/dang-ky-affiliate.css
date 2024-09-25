@@ -1,0 +1,174 @@
+/* dang ky affiliate */
+/* title */
+.register-affiliate-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.register-affiliate-title p {
+    margin-bottom: 20px;
+}
+
+.register-affiliate-title a {
+    display: block;
+    background-color: var(--default-color-beige);
+    text-align: center;
+    width: 40%;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* content */
+.register-affiliate-form {
+    width: 35%;
+    margin: 0 auto;
+    box-shadow: var(--default-box-shadow);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.register-affiliate-form form p {
+    margin-bottom: 20px;
+}
+
+.register-affiliate-form form input {
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.register-affiliate-form form input:focus-visible {
+    outline: none;
+}
+
+.register-affiliate-form form textarea {
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.register-affiliate-form form textarea:focus-visible {
+    outline: none;
+}
+
+.register-affiliate-form form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.register-affiliate-form form label span {
+    color: var(--default-color-red);
+}
+
+.sublable {
+    font-size: 11px;
+    color: #999;
+}
+
+.condition-sign-up {
+    margin-bottom: 20px;
+}
+
+.condition-sign-up>span {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.register-affiliate-form .condition-sign-up>label {
+    font-weight: 400;
+    display: inline-block;
+}
+
+.register-affiliate-form .condition-sign-up>input {
+    width: 2%;
+}
+
+.condition-sign-up ul li {
+    font-size: 11px;
+    color: #999;
+    line-height: 2;
+}
+
+.condition-sign-up ul li:before {
+    content: '✓ ';
+    margin-right: 5px;
+}
+
+.uap-upload-image-wrapper {
+    margin-bottom: 20px;
+}
+
+.uap-upload-image-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.uap-upload-image-wrapp {
+    margin-bottom: 20px;
+}
+
+.uap-no-avatar {
+    background-image: url(https://theanorganics.com/wp-content/plugins/indeed-affiliate-pro/assets/images/no-avatar.png);
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: var(--default-box-shadow);
+}
+
+.uap-upload-avatar {
+    border-color: #5cb85c;
+    color: #357935;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 10px;
+    width: 20%;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.uap-upload-avatar:hover {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+.register-affiliate-form .btn-sign-up {
+    color: #fff;
+    background: #08d1b2;
+    text-transform: uppercase;
+}
+
+.register-affiliate-form .uap-tos-wrap {
+    margin-bottom: 20px;
+}
+
+.register-affiliate-form .uap-tos-wrap a {
+    color: #0074a2;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.register-affiliate-form .uap-tos-wrap a:hover {
+    text-decoration: underline;
+}
+
+.register-affiliate-form .uap-tos-wrap input {
+    width: 4%;
+}

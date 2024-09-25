@@ -1,0 +1,97 @@
+/* giỏ hàng có sản phẩm */
+.submenu-cart {
+    color: var(--default-color-black);
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 480px;
+}
+
+.submenu-cart::-webkit-scrollbar {
+    width: 4px;
+}
+
+.submenu-cart::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.submenu-cart::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.hb-minicart-outer .btn-bottom a {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hb-minicart-outer .btn-bottom a.btn-black {
+    background-color: var(--default-color-black-2);
+    border-color: var(--default-color-black-2);
+}
+
+.hb-minicart-outer .btn-bottom a.btn-black:hover {
+    border-color: var(--default-color-white);
+    color: var(--default-color-white);
+}
+
+.hb-minicart-outer .btn-bottom a.btn-pink {
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+.hb-minicart-outer .btn-bottom{
+    margin-top: 10px;
+    padding: 0 5% 20px;
+    box-sizing: border-box;
+}
+
+.submenu-cart-item {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--default-color-black-2);
+}
+
+.submenu-cart-item .submenu-cart-item-img {
+    width: 35%;
+}
+
+.submenu-cart-item-content {
+    width: 60%;
+    line-height: 1.5;
+    position: relative;
+}
+
+.submenu-cart-item-content>div {
+    margin-top: 10px;
+}
+
+.submenu-cart-item-content input {
+    border: 1px solid var(--default-color-grey);
+    padding: 10px;
+    font-size: 16px;
+    width: 40px;
+    background-color: var(--default-color-black-2);
+    color: var(--default-color-white);
+}
+
+.submenu-cart-total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu-cart-total .submenu-cart-total-price {
+    font-weight: 600;
+    color: var(--default-color-red);
+}
+
+.delete-p{
+    font-size: 24px;
+    color: var(--default-color-white);
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 140px;
+}

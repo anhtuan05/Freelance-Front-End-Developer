@@ -1,0 +1,122 @@
+footer {
+    background-color: #0B1337;
+    color: var(--text-color-w);
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+}
+
+.f-top,
+.f-bottom {
+    width: 100%;
+}
+
+.f-top {
+    display: flex;
+    justify-content: start;
+    padding: 45px 155px 0px;
+    box-sizing: border-box;
+    height: 502px;
+}
+
+.f-top-item:not(:last-child) {
+    margin-right: 80px;
+}
+
+.f-top-item li {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.f-top-item li img {
+    width: 155px;
+    height: 46.5px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:nth-child(1)>a {
+    opacity: 1;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li {
+    position: relative;
+}
+
+div.f-top>.f-top-item:nth-child(4) .f-top-item-li-title {
+    padding-left: 40px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:nth-child(5)>img {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:nth-child(6)>img {
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:last-child img {
+    width: 120px;
+    height: 37px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:last-child a:not(:last-child) {
+    height: 36px;
+    width: 36px;
+    border-radius: 4px;
+    background-color: #545d8d;
+    box-sizing: border-box;
+    padding: 8px 0 0 6px;
+    margin-right: 10px;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:last-child a {
+    opacity: 1;
+}
+
+div.f-top>.f-top-item:nth-child(4)>ul>li:last-child a:hover:not(:last-child) {
+    background-color: var(--main-color-hover);
+    transition: all .3s ease-in-out;
+}
+
+.f-top-item li a {
+    color: var(--text-color-w2);
+    opacity: 0.8;
+}
+
+.f-top-item .f-top-item-li-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color-w);
+    opacity: 1;
+    line-height: 1.5;
+}
+
+.f-top-item .f-top-item-li-title img {
+    width: 24px;
+    height: 18px;
+}
+
+div.f-top>.f-top-item:nth-child(3)>ul>li:nth-child(6) {
+    margin-top: 20px;
+}
+
+.f-bottom {
+    border-top: 1px solid var(--text-color-w);
+    height: 56px;
+    display: flex;
+    justify-content: start;
+    padding: 25px 150px;
+    box-sizing: border-box;
+}
+.f-bottom div{
+    margin-right: 40px;
+}

@@ -1,0 +1,30 @@
+<svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_23_396)">
+<path d="M0 15C0 6.71573 6.71573 0 15 0H40C48.2843 0 55 6.71573 55 15V40C55 48.2843 48.2843 55 40 55H15C6.71573 55 0 48.2843 0 40V15Z" fill="#F6FAFD"/>
+<path d="M44 18.5C44 22.6421 40.6421 26 36.5 26C32.3579 26 29 22.6421 29 18.5C29 14.3579 32.3579 11 36.5 11C40.6421 11 44 14.3579 44 18.5Z" stroke="url(#paint0_linear_23_396)" stroke-width="1.5"/>
+<path d="M11 12C11 11.4477 11.4477 11 12 11H25C25.5523 11 26 11.4477 26 12V25C26 25.5523 25.5523 26 25 26H12C11.4477 26 11 25.5523 11 25V12Z" stroke="url(#paint1_linear_23_396)" stroke-width="1.5"/>
+<path d="M11 30C11 29.4477 11.4477 29 12 29H25C25.5523 29 26 29.4477 26 30V43C26 43.5523 25.5523 44 25 44H12C11.4477 44 11 43.5523 11 43V30Z" stroke="url(#paint2_linear_23_396)" stroke-width="1.5"/>
+<path d="M29 30C29 29.4477 29.4477 29 30 29H43C43.5523 29 44 29.4477 44 30V43C44 43.5523 43.5523 44 43 44H30C29.4477 44 29 43.5523 29 43V30Z" stroke="url(#paint3_linear_23_396)" stroke-width="1.5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_23_396" x1="27.1397" y1="9.08296" x2="48.2421" y2="20.7503" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7381FD"/>
+<stop offset="1" stop-color="#76C7FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_23_396" x1="9.13966" y1="9.08296" x2="30.2421" y2="20.7503" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7381FD"/>
+<stop offset="1" stop-color="#76C7FF"/>
+</linearGradient>
+<linearGradient id="paint2_linear_23_396" x1="9.13966" y1="27.083" x2="30.2421" y2="38.7503" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7381FD"/>
+<stop offset="1" stop-color="#76C7FF"/>
+</linearGradient>
+<linearGradient id="paint3_linear_23_396" x1="27.1397" y1="27.083" x2="48.2421" y2="38.7503" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7381FD"/>
+<stop offset="1" stop-color="#76C7FF"/>
+</linearGradient>
+<clipPath id="clip0_23_396">
+<rect width="55" height="55" fill="white"/>
+</clipPath>
+</defs>
+</svg>

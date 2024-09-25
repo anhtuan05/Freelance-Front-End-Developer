@@ -1,0 +1,30 @@
+.elementor-section {
+    width: 100%;
+    background-color: var(--text-color-b4);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 12px 0px 12px 0px;
+    background-color: #4054b2;
+}
+.elementor-shortcode .elementor-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elementor-shortcode .elementor-heading-title {
+    color: var(--text-color-w);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 24px 0px 0px;
+}
+.elementor-button-text {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--text-color-b1);
+    background: var(--text-color-w);
+}

@@ -1,0 +1,29 @@
+ .chat-the-an {
+     width: 100%;
+     height: auto;
+     padding: 40px 2.5% 0;
+     margin: 0 auto;
+     box-sizing: border-box;
+ }
+
+ .chat-the-an .title-h3 {
+     font-size: 26px;
+     margin-bottom: 20px;
+ }
+
+ .chat-the-an .title-h5 {
+     font-size: 18px;
+ }
+
+ .chat-the-an .btn-bottom {
+     width: 100%;
+ }
+
+ .chat-the-an .btn-bottom a.btn-zalo {
+    margin-bottom: 20px;
+ }
+
+ .chat-the-an .btn-bottom a.btn-grey {
+     padding-left: 60px;
+     padding-right: 60px;
+ }

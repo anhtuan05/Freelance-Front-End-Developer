@@ -1,0 +1,151 @@
+/* sign in, sign up, forget password */
+.member-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    box-shadow: var(--default-box-shadow);
+    line-height: 1.5;
+}
+
+.member-form .btn-pink,
+.member-form .btn-black {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    padding: 20px 65px;
+}
+
+.member-form-top {
+    background-color: var(--default-color-grey);
+}
+
+.member-form .title-h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.member-form .title-h5 {
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.member-form label {
+    margin-bottom: 10px;
+}
+
+.member-form input.member-form-input {
+    padding: 20px 20px 20px 65px;
+}
+
+.member-form input.member-form-input {
+    border: 1px solid #bdbdbd;
+    background-color: var(--default-color-grey);
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.member-form input#email {
+    background-image: url('https://cdn3.iconfinder.com/data/icons/black-easy/512/538474-user_512x512.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 4% 50%;
+}
+
+.member-form input#email-3,
+.member-form input#email-4 {
+    background-image: url('https://cdn3.iconfinder.com/data/icons/black-easy/512/538474-user_512x512.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 4% 50%;
+}
+
+.member-form input#password,
+.member-form input#password-2 {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/locks-solid-style/24/lock-unlock-512.png');
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-position: 4% 50%;
+}
+
+.member-form .remember input {
+    margin-right: 10px;
+}
+
+.member-form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.member-form .gg-login a {
+    background-color: var(--default-color-zalo);
+    color: var(--default-color-white);
+    padding: 15px 30px;
+    border-radius: 4px;
+    margin-left: 20%;
+}
+
+.woo-slg-gp-icon {
+    background-image: url(https://theanorganics.com/wp-content/uploads/2021/12/googlei-icon-60x60-1.png);
+    background-size: cover;
+    width: 32px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    top: 10px;
+}
+
+.member-form-login {
+    padding: 40px 30px;
+}
+
+.gg-login {
+    padding: 0px 30px 60px;
+}
+
+
+.member-form-top {
+    padding: 20px 30px;
+}
+
+.member-form-top a {
+    display: block;
+    color: var(--default-color-green);
+    font-weight: 400;
+}
+
+.member-form-top a span {
+    display: block;
+}
+
+.member-form-top a i.fa::before {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+}
+
+.member-form-bottom {
+    border-top: 1px solid var(--default-color-grey);
+    padding: 0 30px 40px;
+    line-height: 0;
+}
+
+.member-form-bottom span {
+    padding: 0 20px;
+    background-color: var(--default-color-white);
+    margin-left: 40%;
+}
+
+.member-form-bottom .title-h5 {
+    line-height: 5;
+    margin-bottom: 0;
+}
+
+.privacy-policy {
+    color: var(--default-color-green);
+}
+
+.privacy-policy:hover {
+    color: var(--default-color-black);
+}

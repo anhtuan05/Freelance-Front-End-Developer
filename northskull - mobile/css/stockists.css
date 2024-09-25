@@ -1,0 +1,169 @@
+/* section-header  */
+.stockists article,
+.stockists .stockists section {
+    display: block;
+}
+
+.stockists .section-header {
+    width: 100%;
+    margin: 60px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.stockists h1 {
+    font: inherit;
+    font-size: 3.214em;
+    letter-spacing: .15em;
+    line-height: 1.429em;
+    margin: 20px 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* information-viewer */
+.stockists .information-viewer {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto 75px;
+}
+
+.text-template .information-viewer {
+    padding: 0 35px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    width: 100%;
+}
+
+.stockists .information-viewer .view-navigation {
+    width: 100%;
+    display: none;
+}
+
+.information-viewer .view-navigation li:first-child a {
+    border-top: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view-navigation li a {
+    position: relative;
+    display: block;
+    padding: 21px 0 16px;
+    font-size: .957em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    transition: color 200ms ease;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view-navigation li.active a {
+    color: #000;
+}
+
+/* views */
+.stockists .information-viewer .views {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    overflow: hidden;
+}
+
+.stockists .information-viewer .view {
+    padding: 0;
+    border-top: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ebebeb;
+    opacity: 1;
+    z-index: 1;
+}
+
+.stockists .information-viewer .view>h2 {
+    display: block;
+    font-size: 1.2em;
+    letter-spacing: .15em;
+}
+
+.information-viewer .view:first-child>h2 a {
+    border-top: 1px solid #ebebeb;
+}
+
+.stockists .information-viewer .view>h2 a {
+    position: relative;
+    display: block;
+    padding: 21px 0 16px;
+    border-bottom: 1px solid #ebebeb;
+    color: #000;
+}
+
+.information-viewer .view>h2 a:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    background: url(https://northskull.com/design/themes/responsive/media/images/addons/my_changes/plus_icon.png?1692992493);
+
+}
+
+.information-viewer .view.open>h2 a:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: right;
+    background: url(https://northskull.com/design/themes/responsive/media/images/addons/my_changes/minus_icon.png?1692992493);
+
+}
+
+.stockists .information-viewer .view-content {
+    display: none;
+}
+
+.stockists .information-viewer .view.open .view-content {
+    display: block;
+}
+
+.stockists .information-viewer .country-wrapper {
+    margin-bottom: 50px;
+}
+
+.stockists .information-viewer .country {
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.stockists .information-viewer .store {
+    display: inline-block;
+    vertical-align: top;
+    width: 224px;
+    margin-top: 28px;
+    padding-right: 20px;
+}
+
+.stockists .information-viewer .store>h6 {
+    line-height: 1.929em;
+    font-size: .857em;
+    letter-spacing: .15em;
+}
+
+.stockists .information-viewer .store>p {
+    letter-spacing: .05em;
+    line-height: 1.929em;
+    margin-bottom: 0;
+}
+
+.stockists .information-viewer .view.active {
+    z-index: 1;
+    opacity: 1;
+}

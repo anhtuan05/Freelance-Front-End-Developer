@@ -1,0 +1,240 @@
+.header .main-header ul>li>a {
+    color: #000000;
+}
+
+.banner {
+    margin-top: 0;
+}
+
+/*  */
+.elementor-section {
+    width: 100%;
+    background-color: var(--text-color-b4);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 12px 0px 12px 0px;
+    background-color: #4054b2;
+}
+
+.elementor-shortcode .elementor-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementor-row {
+    display: flex;
+}
+
+.elementor-button-text {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--text-color-b1);
+    background: var(--text-color-w);
+}
+
+.elementor-shortcode .elementor-heading-title {
+    color: var(--text-color-w);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 24px 0px 0px;
+}
+
+/* section */
+.elementor-top-section {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 64px 0px 64px 0px;
+}
+
+.elementor-container {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.elementor-widget-wrap {
+    width: 70%;
+    padding: 64px 64px 64px 0px;
+}
+
+.elementor-widget-wrap h2 {
+    color: #0B1337;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+
+.elementor-icon-list-item,
+.elementor-icon-list-item a {
+    display: flex;
+    align-items: center;
+}
+
+.elementor-icon-list-items:not(.elementor-inline-items) .elementor-icon-list-item:not(:last-child) {
+    padding-bottom: calc(16px/2);
+}
+
+.elementor-icon-list-icon {
+    padding-right: 16px;
+}
+
+.elementor-icon-list-icon i {
+    width: 1.25em;
+    color: #D01217;
+}
+
+.elementor-icon-list-text {
+    color: var(--text-color-b1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+/*  */
+.elementor-element {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.elementor-container .elementor-heading-title,
+.elementor-container .elementor-size-p {
+    width: 67%;
+}
+
+.elementor-heading-title {
+    color: var(--text-color-b1);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 16px;
+}
+
+.elementor-size-p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+}
+
+/*  */
+.elementor-element-box {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-col-33,
+.elementor-column[data-col="33"] {
+    width: 33.333%;
+}
+
+.elementor-element-populated {
+    margin: 8px 8px 8px 8px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 4px 4px 0px rgba(84, 89, 95, 0.1);
+}
+
+.elementor-animation- {
+    display: inline-block;
+    background-color: #F3F5F9;
+    padding: 0.5em 0.5em 0.3em;
+    fill: #fff;
+    font-size: 40px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.elementor-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.elementor-icon-box-icon {
+    margin-bottom: var(--icon-box-icon-margin, 15px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.elementor-col-33 .elementor-icon-box-title {
+    width: 285px;
+    height: 100px;
+}
+
+.elementor-icon-box-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 32px 0 16px 0;
+}
+
+/* elementor-service */
+.elementor-service {
+    background-color: #1D286D;
+    padding: 64px 0px 64px 0px;
+}
+
+.elementor-service .elementor-heading-title {
+    color: var(--text-color-w);
+}
+
+.elementor-col-25,
+.elementor-column[data-col="25"] {
+    width: 25%;
+}
+
+.elementor-element-populated {
+    /* box-shadow: 0px 4px 4px 0px rgba(10.999999999999998, 18.99999999999999, 55, 0.24); */
+    margin: 8px 8px 8px 8px;
+    --e-column-margin-right: 8px;
+    --e-column-margin-left: 8px;
+}
+
+.elementor-widget-container {
+    padding: 24px 24px 40px 24px;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 16px 16px 0px rgba(84, 89, 95, 0.1);
+}
+
+.elementor-column-wrap {
+    background-color: var(--text-color-b2);
+    height: 375px;
+}
+
+.elementor-col-25 .elementor-icon-box-title,
+.elementor-col-25 .elementor-icon-box-description {
+    color: var(--text-color-w);
+
+}
+
+.elementor-col-25 .elementor-icon-box-description {
+    color: #F3F5F9;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+}
+
+.elementor-box {
+    display: flex;
+}
+
+.elementor-icon .elementor-icon-list-icon i {
+    color: var(--text-color-b2);
+
+}
+
+.elementor-icon .elementor-icon-list-icon .fa {
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+.elementor-list-item,
+.elementor-list-item a {
+    display: flex;
+    padding-bottom: calc(16px/2);
+}
